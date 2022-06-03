@@ -76,21 +76,17 @@ public class FirePokemon extends PokemonSuper {
     }
 
     // Fire Attacks
-    public String inferno() {
+    public static void inferno() {
         System.out.println(" attacks with inferno");
-        return attack;
     }
-    public String pyroBall() {
+    public static void pyroball() {
         System.out.println(" attacks with pyroball");
-        return attack;
 }
-    public String fireLash() {
+    public static void fireLash() {
         System.out.println(" attacks with firelash");
-        return attack;
     }
-    public String flamethrower() {
+    public static void flamethrower() {
         System.out.println(" attacks with flamethrower");
-        return attack;
     }
 }
 

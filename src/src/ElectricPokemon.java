@@ -69,21 +69,17 @@ public class ElectricPokemon extends PokemonSuper {
     }
 
     // Electric Attacks
-    public String thunderPunch() {
+    public static void thunderPunch() {
         System.out.println("Electrabuzz attacks with thunderpunch");
-        return attack;
     }
-    public String electroBall() {
+    public static void electroBall() {
         System.out.println("Electrabuzz attacks with electroball");
-        return attack;
     }
-    public String thunder() {
+    public static void thunder() {
         System.out.println("Electrabuzz attacks with thunder");
-        return attack;
     }
-    public String voltTackle() {
+    public static void voltTackle() {
         System.out.println("Electrabuzz attacks with volttackle");
-        return attack;
     }
 
 }

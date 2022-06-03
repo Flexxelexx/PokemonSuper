@@ -40,33 +40,27 @@ public class PokemonSuper {
 
     // Eat / Speaks / Walks
 
-    public String eatsPineapple() {
+    public static void eatsPineapple() {
         System.out.println("is eating pineapples");
-        return eat;
     }
-    public String eatsFishies() {
+    public static void eatsFishies() {
         System.out.println("is eating fishes");
-        return eat;
     }
 
-    public String speaksEnglish() {
+    public static void speaksEnglish() {
         System.out.println("is speaking english");
-        return speak;
     }
 
-    public String speaksDutch() {
+    public static void speaksDutch() {
         System.out.println("is speaking Dutch");
-        return speak;
     }
 
-    public String walksAlot() {
+    public static void walksAlot() {
         System.out.println("is walking very far");
-        return walk;
     }
 
-    public String walksAbit() {
+    public static void walksAbit() {
         System.out.println("is walking in circles");
-        return walk;
     }
 
 }

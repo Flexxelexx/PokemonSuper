@@ -6,8 +6,12 @@ public class Main {
         GrassPokemon grassPokemon = new GrassPokemon("Bulbasaur", 15, 310, "Grass", "'Buuuuuuulba'");
         ElectricPokemon electricPokemon = new ElectricPokemon("Electrabuzz", 21, 545, "Candy", "'Eelectra'");
 
+        System.out.println(firePokemon.getName());
+        firePokemon.inferno();
+        firePokemon.fireLash();
+        firePokemon.flamethrower();
+        firePokemon.pyroball();
 
-        System.out.println(firePokemon.getName() + firePokemon.eatsPineapple() + firePokemon.inferno());
 
         // Welkom
         System.out.println("***** POKEMON LIST *****");

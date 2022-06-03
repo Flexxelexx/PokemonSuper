@@ -69,15 +69,15 @@ public class WaterPokemon extends PokemonSuper {
 
     // Water Attacks
     public static void surf() {
-        System.out.println("Squirtle attacks with surf");
+        System.out.println("Squirtle attacks with surf!");
     }
     public static void hydroPump() {
-        System.out.println("Squirtle attacks with hydropump");
+        System.out.println("Squirtle attacks with hydropump!");
     }
     public static void hydroCanon() {
-        System.out.println("Squirtle attacks with hydrocanon");
+        System.out.println("Squirtle attacks with hydrocanon!");
     }
     public static void rainDance() {
-        System.out.println("Squirtle attacks with raindance");
+        System.out.println("Squirtle attacks with raindance!");
     }
 }

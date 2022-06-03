@@ -4,13 +4,13 @@ public class PokemonSuper {
     public String speak;
     public String walk;
 
-    public MovementBehaviour() {
-
-    }
-
-    public MovementBehaviour (String eat, String speak, String walk) {
+    public void Eating (String eat) {
         this.eat = eat;
+    }
+    public void Speaking (String speak) {
         this.speak = speak;
+    }
+    public void Walking (String walk) {
         this.walk = walk;
     }
 
@@ -38,4 +38,5 @@ public class PokemonSuper {
         this.walk = walk;
     }
 
+    
 }

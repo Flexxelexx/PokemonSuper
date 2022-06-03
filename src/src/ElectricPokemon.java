@@ -60,10 +60,6 @@ public class ElectricPokemon extends PokemonSuper {
         this.sound = sound;
     }
 
-    public ElectricPokemonAttack (String attack) {
-        this.attack = attack;
-    }
-
     public String getAttack() {
         return attack;
     }
@@ -72,17 +68,22 @@ public class ElectricPokemon extends PokemonSuper {
         this.attack = attack;
     }
 
-    public void thunderPunch() {
-        System.out.println("attacks with thunderpunch");
+    // Electric Attacks
+    public String thunderPunch() {
+        System.out.println("Electrabuzz attacks with thunderpunch");
+        return attack;
     }
-    public void electroBall() {
-        System.out.println("attacks with electroball");
+    public String electroBall() {
+        System.out.println("Electrabuzz attacks with electroball");
+        return attack;
     }
-    public void thunder() {
-        System.out.println("attacks with thunder");
+    public String thunder() {
+        System.out.println("Electrabuzz attacks with thunder");
+        return attack;
     }
-    public void voltTackle() {
-        System.out.println("attacks with volttackle");
+    public String voltTackle() {
+        System.out.println("Electrabuzz attacks with volttackle");
+        return attack;
     }
 
 }

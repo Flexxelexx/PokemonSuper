@@ -68,7 +68,7 @@ public class FirePokemon extends PokemonSuper {
     }
 
     public String getAttack() {
-        return attack;
+        return inferno();
     }
 
     public void setAttack(String attack) {
@@ -76,17 +76,21 @@ public class FirePokemon extends PokemonSuper {
     }
 
     // Fire Attacks
-    public void inferno() {
-        System.out.println("attacks with inferno");
+    public String inferno() {
+        System.out.println("Charmander attacks with inferno");
+        return attack;
     }
-    public void pyroBall() {
-    System.out.println("attacks with pyroball");
+    public String pyroBall() {
+        System.out.println("Charmander attacks with pyroball");
+        return attack;
 }
-    public void fireLash() {
-        System.out.println("attacks with firelash");
+    public String fireLash() {
+        System.out.println("Charmander attacks with firelash");
+        return attack;
     }
-    public void flamethrower() {
-        System.out.println("attacks with flamethrower");
+    public String flamethrower() {
+        System.out.println("Charmander attacks with flamethrower");
+        return attack;
     }
 }
 

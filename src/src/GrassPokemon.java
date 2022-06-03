@@ -67,16 +67,21 @@ public class GrassPokemon extends PokemonSuper {
         this.attack = attack;
     }
 
-    public void leafStorm() {
-        System.out.println("attacks with leafstorm");
+    // Grass Attacks
+    public String leafStorm() {
+        System.out.println("Bulbasaur attacks with leafstorm");
+        return attack;
     }
-    public void solarBeam() {
-        System.out.println("attacks with solarbeam");
+    public String solarBeam() {
+        System.out.println("Bulbasaur attacks with solarbeam");
+        return attack;
     }
-    public void leechSeed() {
-        System.out.println("attacks with leechseed");
+    public String leechSeed() {
+        System.out.println("Bulbasaur attacks with leechseed");
+        return attack;
     }
-    public void leafBlade() {
-        System.out.println("attacks with leafblade");
+    public String leafBlade() {
+        System.out.println("Bulbasaur attacks with leafblade");
+        return attack;
     }
 }

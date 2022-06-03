@@ -37,6 +37,8 @@ public class Main {
         System.out.println("\nWhich Pokemon you want to play with?");
         String choosePokemon = scanner.nextLine();
 
+        // Charmander question-tree
+
         if (choosePokemon.equalsIgnoreCase("Charmander")) {
             System.out.println("\nYou have chosen Charmander to play with!");
             System.out.println("\n What do you want to do now? Type in what you want this pokemon to do: \n- Attack \n- Eat \n- Sleep \n- Talk");
@@ -81,13 +83,17 @@ public class Main {
                 if (chooseAmount.equalsIgnoreCase("a bit")) {
                     System.out.println("\nCharmander lays down on the floor for a quick nap. It will be ready to fight one extra battle!");
                 }
-                if (chooseActivity.equalsIgnoreCase("talk")) {
-                    System.out.println("\nWhat have you done? Charmander starts talking and calling its own name; 'Chaaaaaaaaaarrrrr'");
-                }
             }
 
+            if (chooseActivity.equalsIgnoreCase("talk")) {
+                    System.out.println("\nWhat have you done? Charmander starts talking and calling its own name; 'Chaaaaaaaaaarrrrr'");
+                }
+
+
         }
-//
+
+        // Squirtle question-tree
+
         if (choosePokemon.equalsIgnoreCase("squirtle")) {
             System.out.println("\nYou have chosen Squirtle to play with");
             System.out.println("\n What do you want to do now? Type in what you want this pokemon to do: \n- Attack \n- Eat \n- Sleep \n- Talk");
@@ -111,19 +117,35 @@ public class Main {
                 }
             }
             if (chooseActivity.equalsIgnoreCase("eat")) {
-                System.out.println("\nSquirtle gathers all his caught food and starts munching. *Nom nom nom*");
-                ;
+                System.out.println("You have chosen to let the Pokemon eat something. You can type in 'a bit' or 'a lot'");
+                String chooseAmount = scanner.nextLine();
+
+                if (chooseAmount.equalsIgnoreCase("a lot")) {
+                    System.out.println("\nSquirtle gathers all his caught food and starts munching. It will regenerate 100% of it's HP.");
+                }
+                if (chooseAmount.equalsIgnoreCase("a bit")) {
+                    System.out.println("\nSquirtle empties his pockets and starts eating small bits. It will regeneratie 25% of it's HP.");
+                }
             }
 
             if (chooseActivity.equalsIgnoreCase("Sleep")) {
-                System.out.println("\nSquirtle tucks itself in for a nice nap. Sleep well :-) !");
+                System.out.println("You have chosen to let the Pokemon sleep. You can type in 'a bit' or 'a lot'");
+                String chooseAmount = scanner.nextLine();
+
+                if (chooseAmount.equalsIgnoreCase("a lot")) {
+                    System.out.println("\nSquirtle tucks itself in for a nights sleep. It will be fully rested and ready for battle!");
+                }
+                if (chooseAmount.equalsIgnoreCase("a bit")) {
+                    System.out.println("\nSquirtle lays down on the floor for a quick nap. It will be ready to fight one extra battle!");
+                }
             }
 
             if (chooseActivity.equalsIgnoreCase("talk")) {
-                System.out.println("\nWhat have you done? Squirtle starts talking and calling its own name; 'Squiiiiiiiirtle'");
-            }
-
+                    System.out.println("\nWhat have you done? Squirtle starts talking and calling its own name; 'Squiiiiiiiirtle'");
+                }
         }
+
+        // Bulbasaur question-tree
 
         if (choosePokemon.equalsIgnoreCase("bulbasaur")) {
             System.out.println("\nYou have chosen Bulbasaur to play with");
@@ -148,17 +170,36 @@ public class Main {
                 }
 
             }
+
             if (chooseActivity.equalsIgnoreCase("eat")) {
-                System.out.println("\nBulbasaur gathers all his caught food and starts munching. Nom nom nom");
-                ;
+                System.out.println("You have chosen to let the Pokemon eat something. You can type in 'a bit' or 'a lot'");
+                String chooseAmount = scanner.nextLine();
+
+                if (chooseAmount.equalsIgnoreCase("a lot")) {
+                    System.out.println("\nBulbasaur gathers all his caught food and starts munching. It will regenerate 100% of it's HP.");
+                }
+                if (chooseAmount.equalsIgnoreCase("a bit")) {
+                    System.out.println("\nBulbasaur empties his pockets and starts eating small bits. It will regeneratie 25% of it's HP.");
+                }
             }
+
             if (chooseActivity.equalsIgnoreCase("Sleep")) {
-                System.out.println("\nBulbasaur tucks itself in for a nice nap. Sleep well :-) !");
+                System.out.println("You have chosen to let the Pokemon sleep. You can type in 'a bit' or 'a lot'");
+                String chooseAmount = scanner.nextLine();
+
+                if (chooseAmount.equalsIgnoreCase("a lot")) {
+                    System.out.println("\nBulbasaur tucks itself in for a nights sleep. It will be fully rested and ready for battle!");
+                }
+                if (chooseAmount.equalsIgnoreCase("a bit")) {
+                    System.out.println("\nBulbasaur lays down on the floor for a quick nap. It will be ready to fight one extra battle!");
+                }
             }
             if (chooseActivity.equalsIgnoreCase("talk")) {
-                System.out.println("\nWhat have you done? Bulbasaur starts talking and calling its own name; 'Bulbaaaaaasaur'");
-            }
+                    System.out.println("\nWhat have you done? Bulbasaur starts talking and calling its own name; 'Bulbaaaaaasaur'");
+                }
         }
+
+        // Electrabuzz question-tree
 
         if (choosePokemon.equalsIgnoreCase("electrabuzz")) {
             System.out.println("\nYou have chosen Electrabuzz to play with");
@@ -181,24 +222,43 @@ public class Main {
                 if (chooseAttack.equalsIgnoreCase("volttackle")) {
                     electricPokemon.voltTackle();
                 }
+            }
 
-            }
             if (chooseActivity.equalsIgnoreCase("eat")) {
-                System.out.println("\nElectrabuzz gathers all his caught food and starts munching. Nom nom nom");
-                ;
+                System.out.println("You have chosen to let the Pokemon eat something. You can type in 'a bit' or 'a lot'");
+                String chooseAmount = scanner.nextLine();
+
+                if (chooseAmount.equalsIgnoreCase("a lot")) {
+                    System.out.println("\nElectrabuzz gathers all his caught food and starts munching. It will regenerate 100% of it's HP.");
+                }
+                if (chooseAmount.equalsIgnoreCase("a bit")) {
+                    System.out.println("\nElectrabuzz empties his pockets and starts eating small bits. It will regeneratie 25% of it's HP.");
+                }
             }
+
             if (chooseActivity.equalsIgnoreCase("Sleep")) {
-                System.out.println("\nElectrabuzz tucks itself in for a nice nap. Sleep well :-) !");
+                System.out.println("You have chosen to let the Pokemon sleep. You can type in 'a bit' or 'a lot'");
+                String chooseAmount = scanner.nextLine();
+
+                if (chooseAmount.equalsIgnoreCase("a lot")) {
+                    System.out.println("\nElectrabuzz tucks itself in for a nights sleep. It will be fully rested and ready for battle!");
+                }
+                if (chooseAmount.equalsIgnoreCase("a bit")) {
+                    System.out.println("\nElectrabuzz lays down on the floor for a quick nap. It will be ready to fight one extra battle!");
+                }
             }
+
             if (chooseActivity.equalsIgnoreCase("talk")) {
-                System.out.println("\nWhat have you done? Electrabuzz starts talking and calling its own name; 'EleeeeeectraaaaaBUZZZZ'");
-            }
+                    System.out.println("\nWhat have you done? Electrabuzz starts talking and calling its own name; 'EleeeeeectraaaaaBUZZZZ'");
+                }
 
         }
 
-        System.out.println("\nThanks for this fun time, untill next time :-)!");
+    System.out.println("\nThanks for this fun time, untill next time :-)!");
     }
 }
+
+
 
 
 

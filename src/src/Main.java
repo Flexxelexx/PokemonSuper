@@ -1,9 +1,13 @@
 public class Main {
     public static void main(String[] args) {
+
         FirePokemon firePokemon = new FirePokemon("Charmander", 5, 100.12, "Meat", "'Chaaaaar'");
         WaterPokemon waterPokemon = new WaterPokemon("Squirtle", 10, 200, "Fish", "'Squiiiiirtle'");
         GrassPokemon grassPokemon = new GrassPokemon("Bulbasaur", 15, 310, "Grass", "'Buuuuuuulba'");
         ElectricPokemon electricPokemon = new ElectricPokemon("Electrabuzz", 21, 545, "Candy", "'Eelectra'");
+
+
+        System.out.println(firePokemon.getName() + firePokemon.eatsPineapple() + firePokemon.inferno());
 
         // Welkom
         System.out.println("***** POKEMON LIST *****");

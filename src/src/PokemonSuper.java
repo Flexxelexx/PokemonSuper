@@ -7,7 +7,7 @@ public class PokemonSuper {
     public void Eating (String eat) {
         this.eat = eat;
     }
-    public void Speaking (String speak) {
+    public void Speaking(String speak) {
         this.speak = speak;
     }
     public void Walking (String walk) {
@@ -48,7 +48,7 @@ public class PokemonSuper {
     }
 
     public static void speaksEnglish() {
-        System.out.println("is speaking english");
+        System.out.println("is speaking English");
     }
 
     public static void speaksDutch() {

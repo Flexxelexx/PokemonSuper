@@ -88,8 +88,6 @@ public class Main {
             if (chooseActivity.equalsIgnoreCase("talk")) {
                     System.out.println("\nWhat have you done? Charmander starts talking and calling its own name; 'Chaaaaaaaaaarrrrr'");
                 }
-
-
         }
 
         // Squirtle question-tree

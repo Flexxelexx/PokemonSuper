@@ -72,12 +72,17 @@ public class ElectricPokemon extends PokemonSuper {
         this.attack = attack;
     }
 
-
-
-
-//    thunderPunch();
-//    electroBall();
-//    thunder();
-//    voltTackle();
+    public void thunderPunch() {
+        System.out.println("attacks with thunderpunch");
+    }
+    public void electroBall() {
+        System.out.println("attacks with electroball");
+    }
+    public void thunder() {
+        System.out.println("attacks with thunder");
+    }
+    public void voltTackle() {
+        System.out.println("attacks with volttackle");
+    }
 
 }

@@ -59,10 +59,6 @@ public class GrassPokemon extends PokemonSuper {
         this.sound = sound;
     }
 
-    public GrassPokemonAttack (String attack) {
-        this.attack = attack;
-    }
-
     public String getAttack() {
         return attack;
     }
@@ -71,8 +67,16 @@ public class GrassPokemon extends PokemonSuper {
         this.attack = attack;
     }
 
-    // leafStorm()
-    // solarBeam()
-    // leechSeed()
-    // leaveBlade()
+    public void leafStorm() {
+        System.out.println("attacks with leafstorm");
+    }
+    public void solarBeam() {
+        System.out.println("attacks with solarbeam");
+    }
+    public void leechSeed() {
+        System.out.println("attacks with leechseed");
+    }
+    public void leafBlade() {
+        System.out.println("attacks with leafblade");
+    }
 }

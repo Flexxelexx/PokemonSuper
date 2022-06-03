@@ -71,8 +71,17 @@ public class WaterPokemon extends PokemonSuper {
         this.attack = attack;
     }
 
-    //surf()
-    // hydroPump()
-    // hydroCanon()
-    // rainDance()
+    // Water Attacks
+    public void surf() {
+        System.out.println("attacks with surf");
+    }
+    public void hydroPump() {
+        System.out.println("attacks with hydropump");
+    }
+    public void hydroCanon() {
+        System.out.println("attacks with hydrocanon");
+    }
+    public void rainDance() {
+        System.out.println("attacks with raindance");
+    }
 }

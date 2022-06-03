@@ -20,6 +20,12 @@ public class FirePokemon extends PokemonSuper {
         this.sound = sound;
     }
 
+    public void Attack() {
+
+    }
+    public void Attack (String attack) {
+        this.attack = attack;
+    }
 
     public String getName() {
         return name;
@@ -69,10 +75,19 @@ public class FirePokemon extends PokemonSuper {
         this.attack = attack;
     }
 
-    //    rainDance();
-//    hydroCanon();
-//    hydroPump();
-//    surf();
+    // Fire Attacks
+    public void inferno() {
+        System.out.println("attacks with inferno");
+    }
+    public void pyroBall() {
+    System.out.println("attacks with pyroball");
+}
+    public void fireLash() {
+        System.out.println("attacks with firelash");
+    }
+    public void flamethrower() {
+        System.out.println("attacks with flamethrower");
+    }
 }
 
 

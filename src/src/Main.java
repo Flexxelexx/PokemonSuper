@@ -37,7 +37,7 @@ public class Main {
         // Questions
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("\nWhich Pokemon you want to play with?");
+        System.out.println("\nWhich Pokemon you want to play with? \nYou can type in the name.");
         String choosePokemon = scanner.nextLine();
 
         // Charmander question-tree
@@ -83,6 +83,10 @@ public class Main {
                 if (chooseAmount.equalsIgnoreCase("a bit")) {
                     System.out.println("\n" + firePokemon.getName() + " empties his pockets and starts eating small bits of " + firePokemon.getFood().toLowerCase() + ". It will regeneratie 25% of it's HP.");
                 }
+//                if (chooseAmount.equalsIgnoreCase("corn")) {
+//                    pokemonSuper.setEat("corn");
+//                    System.out.println(firePokemon.getName() + " enjoys his " + pokemonSuper.getEat());
+//                }
             }
 
             // Charmander sleeps

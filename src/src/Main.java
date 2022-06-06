@@ -11,33 +11,27 @@ public class Main {
         PokemonSuper pokemonSuper = new PokemonSuper();
 
 
-        // Welcome
-        System.out.println("***** POKEMON LIST *****");
+        // Fancy welcome :-) >>bloed zweet en tranen van André is er niks bij<<
 
-        // Fire
-        System.out.println("\n#####################");
-        System.out.println("# - Name: " + firePokemon.getName().toUpperCase() + "\n# - Level: " + firePokemon.getLevel() + "\n# - HP: " + firePokemon.getHp() + "\n# - Food: " + firePokemon.getFood() + "\n# - Sound: " + firePokemon.getSound());
-        System.out.println("#####################");
+        System.out.println("\n               |**********************************************|");
+        System.out.println("                |************ WELCOME TO POKEMON ************|");
+        System.out.println("                 |******************************************|");
+        System.out.println("                  |****************************************|");
+        System.out.println("                       |******** POKEMON LIST *******|");
 
-        // Water
-        System.out.println("\n#####################");
-        System.out.println("# - Name: " + waterPokemon.getName().toUpperCase() + "\n# - Level: " + waterPokemon.getLevel() + "\n# - HP: " + waterPokemon.getHp() + "\n# - Food: " + waterPokemon.getFood() + "\n# - Sound: " + waterPokemon.getSound());
-        System.out.println("#####################");
+        System.out.println("\n#####################################################################################");
+        System.out.println("#    -> NAME <- " + "\t   -> LEVEL <-" + "\t    -> HP <-" + "\t -> EATS <-" + "\t     -> SOUND <-" + "    #");
+        System.out.println("#  -------------------------------------------------------------------------------  #");
+        System.out.println("# ->  " + firePokemon.getName().toUpperCase() + "\t    Level: " + firePokemon.getLevel() + "\t     " + firePokemon.getHp() + "\t        " + firePokemon.getFood() + "\t     " + firePokemon.getSound() + "     #");
+        System.out.println("# ->  " + waterPokemon.getName().toUpperCase() + "\t        Level: " + waterPokemon.getLevel() + "\t     " + waterPokemon.getHp() + "\t        " + waterPokemon.getFood() + "\t     " + waterPokemon.getSound() + " #");
+        System.out.println("# ->  " + grassPokemon.getName().toUpperCase() + "\t        Level: " + grassPokemon.getLevel() + "\t     " + grassPokemon.getHp() + "\t        " + grassPokemon.getFood() + "\t     " + grassPokemon.getSound() + "  #");
+        System.out.println("# ->  " + electricPokemon.getName().toUpperCase() + "\t    Level: " + electricPokemon.getLevel() + "\t     " + electricPokemon.getHp() + "\t        " + electricPokemon.getFood() + "\t     " + electricPokemon.getSound() + "     #");
+        System.out.println("#####################################################################################");
 
-        // Grass
-        System.out.println("\n#####################");
-        System.out.println("# - Name: " + grassPokemon.getName().toUpperCase() + "\n# - Level: " + grassPokemon.getLevel() + "\n# - HP: " + grassPokemon.getHp() + "\n# - Food: " + grassPokemon.getFood() + "\n# - Sound: " + grassPokemon.getSound());
-        System.out.println("#####################");
-
-        // Electric
-        System.out.println("\n#####################");
-        System.out.println("# - Name: " + electricPokemon.getName().toUpperCase() + "\n# - Level: " + electricPokemon.getLevel() + "\n# - HP: " + electricPokemon.getHp() + "\n# - Food: " + electricPokemon.getFood() + "\n# - Sound: " + electricPokemon.getSound());
-        System.out.println("#####################");
-
-        // Questions
+        // Starting question
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("\nWhich Pokemon you want to play with? \nYou can type in the name.");
+        System.out.println("\nWhich Pokemon you want to play with? \nYou can type in the name:");
         String choosePokemon = scanner.nextLine();
 
         // Charmander question-tree

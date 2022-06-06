@@ -44,7 +44,7 @@ public class Main {
 
         if (choosePokemon.equalsIgnoreCase("Charmander")) {
             System.out.println("\nYou have chosen " + firePokemon.getName() + " to play with!");
-            System.out.println("\n What do you want to do now? Type in what you want " + firePokemon.getName() + " to do: \n- Attack \n- Eat \n- Sleep \n- Talk");
+            System.out.println("\n What do you want to do now? Type in what you want " + firePokemon.getName() + " to do: \n- Attack \n- Eat \n- Sleep \n- Talk \n- Walk \n- Jump");
             String chooseActivity = scanner.nextLine();
 
 
@@ -83,10 +83,6 @@ public class Main {
                 if (chooseAmount.equalsIgnoreCase("a bit")) {
                     System.out.println("\n" + firePokemon.getName() + " empties his pockets and starts eating small bits of " + firePokemon.getFood().toLowerCase() + ". It will regeneratie 25% of it's HP.");
                 }
-//                if (chooseAmount.equalsIgnoreCase("corn")) {
-//                    pokemonSuper.setEat("corn");
-//                    System.out.println(firePokemon.getName() + " enjoys his " + pokemonSuper.getEat());
-//                }
             }
 
             // Charmander sleeps
@@ -108,13 +104,29 @@ public class Main {
             if (chooseActivity.equalsIgnoreCase("talk")) {
                     System.out.println("\nWhat have you done? " + firePokemon.getName() + " starts talking and calling its own name; " + firePokemon.getSound());
                 }
+
+            // Charmander walks
+
+            if (chooseActivity.equalsIgnoreCase("walk")) {
+                System.out.println("You have chosen to walk with " + firePokemon.getName());
+                pokemonSuper.setWalk(firePokemon.getName() + " starts walking..");
+                System.out.println(pokemonSuper.getWalk());
+            }
+
+            // Charmander jumps
+
+            if (chooseActivity.equalsIgnoreCase("jump")) {
+                System.out.println("Like a little circus monkey you have ordered " + firePokemon.getName() + " to jump. Here we go: ");
+                pokemonSuper.setJump(firePokemon.getName() + " jumps! Jeej :)");
+                System.out.println(pokemonSuper.getJump());
+            }
         }
 
         // Squirtle question-tree
 
         if (choosePokemon.equalsIgnoreCase("squirtle")) {
             System.out.println("\nYou have chosen " + waterPokemon.getName() + " to play with");
-            System.out.println("\n What do you want to do now? Type in what you want " + waterPokemon.getName() + " to do: \n- Attack \n- Eat \n- Sleep \n- Talk");
+            System.out.println("\n What do you want to do now? Type in what you want " + waterPokemon.getName() + " to do: \n- Attack \n- Eat \n- Sleep \n- Talk \n- Walk \n- Jump");
             String chooseActivity = scanner.nextLine();
 
             // Squirtle attacks
@@ -173,13 +185,29 @@ public class Main {
             if (chooseActivity.equalsIgnoreCase("talk")) {
                     System.out.println("\nWhat have you done? " + waterPokemon.getName() + " starts talking and calling its own name; " + waterPokemon.getSound());
                 }
+
+            // Squirtle walks
+
+            if (chooseActivity.equalsIgnoreCase("walk")) {
+                System.out.println("You have chosen to walk with " + waterPokemon.getName());
+                pokemonSuper.setWalk(waterPokemon.getName() + " starts walking..");
+                System.out.println(pokemonSuper.getWalk());
+            }
+
+            // Squirtle jumps
+
+            if (chooseActivity.equalsIgnoreCase("jump")) {
+                System.out.println("Like a little circus monkey you have ordered " + waterPokemon.getName() + " to jump. Here we go: ");
+                pokemonSuper.setJump(waterPokemon.getName() + " jumps! Jeej :)");
+                System.out.println(pokemonSuper.getJump());
+            }
         }
 
         // Bulbasaur question-tree
 
         if (choosePokemon.equalsIgnoreCase("bulbasaur")) {
             System.out.println("\nYou have chosen " + grassPokemon.getName() + " to play with");
-            System.out.println("\n What do you want to do now? Type in what you want " + grassPokemon.getName() + " to do: \n- Attack \n- Eat \n- Sleep \n- Talk");
+            System.out.println("\n What do you want to do now? Type in what you want " + grassPokemon.getName() + " to do: \n- Attack \n- Eat \n- Sleep \n- Talk \n- Walk \n- Jump");
             String chooseActivity = scanner.nextLine();
 
             // Bulbasaus attack
@@ -239,13 +267,29 @@ public class Main {
             if (chooseActivity.equalsIgnoreCase("talk")) {
                     System.out.println("\nWhat have you done? " + grassPokemon.getName() + " starts talking and calling its own name; " + grassPokemon.getSound());
                 }
+
+            // Bulbasaur walks
+
+            if (chooseActivity.equalsIgnoreCase("walk")) {
+                System.out.println("You have chosen to walk with " + grassPokemon.getName());
+                pokemonSuper.setWalk(grassPokemon.getName() + " starts walking..");
+                System.out.println(pokemonSuper.getWalk());
+            }
+
+            // Bulbasaur jumps
+
+            if (chooseActivity.equalsIgnoreCase("jump")) {
+                System.out.println("Like a little circus monkey you have ordered " + grassPokemon.getName() + " to jump. Here we go: ");
+                pokemonSuper.setJump(grassPokemon.getName() + " jumps! Jeej :)");
+                System.out.println(pokemonSuper.getJump());
+            }
         }
 
         // Electrabuzz question-tree
 
         if (choosePokemon.equalsIgnoreCase("electrabuzz")) {
             System.out.println("\nYou have chosen " + electricPokemon.getName() + " to play with");
-            System.out.println("\nWhat do you want to do now? Type in what you want " + electricPokemon.getName() + " to do: \n- Attack \n- Eat \n- Sleep \n- Talk");
+            System.out.println("\nWhat do you want to do now? Type in what you want " + electricPokemon.getName() + " to do: \n- Attack \n- Eat \n- Sleep \n- Talk \n- Walk \n- Jump");
             String chooseActivity = scanner.nextLine();
 
             // Electrabuzz attacks
@@ -304,6 +348,22 @@ public class Main {
             if (chooseActivity.equalsIgnoreCase("talk")) {
                     System.out.println("\nWhat have you done? " + electricPokemon.getName() + " starts talking and calling its own name; " + electricPokemon.getSound());
                 }
+
+            // Electrabuzz walks
+
+            if (chooseActivity.equalsIgnoreCase("walk")) {
+                System.out.println("You have chosen to walk with " + electricPokemon.getName());
+                pokemonSuper.setWalk(electricPokemon.getName() + " starts walking..");
+                System.out.println(pokemonSuper.getWalk());
+            }
+
+            // Electrabuzz jumps
+
+            if (chooseActivity.equalsIgnoreCase("jump")) {
+                System.out.println("Like a little circus monkey you have ordered " + electricPokemon.getName() + " to jump. Here we go: ");
+                pokemonSuper.setJump(electricPokemon.getName() + " jumps! Jeej :)");
+                System.out.println(pokemonSuper.getJump());
+            }
 
         }
 
